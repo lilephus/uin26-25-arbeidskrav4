@@ -1,5 +1,19 @@
+import Header from "./components/layout/header";
+// import Footer from "./components/layout/footer";
+import medlemmer from "./components/medlemmer/epha";
+
 function App() {
-  return <h1>Gruppe UIN26_25</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <section className="medlemmer">
+          <epha />
+        </section>
+      </main>
+      {/* <Footer /> */}
+    </>
+  );
 }
 
 export default App;

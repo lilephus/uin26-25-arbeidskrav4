@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  /* padding: 0;
+  box-sizing: border-box; */
+}
+header {
+  /* background-color: #333; */
+  color: #fff;
+  /* padding: 20px; */
+  padding: 1rem;
+  background: #111;
+  text-align: center;
+}
+
+.medlemmer {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  /* justify-content: center; */
+  padding: 2rem;
+}
+
+section {
+  /* background-color: #f4f4f4; */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  /* margin: 20px;
+  border-radius: 8px; */
+}
