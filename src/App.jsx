@@ -1,15 +1,15 @@
 import Header from "./components/layout/header";
 // import Footer from "./components/layout/footer";
-import Epha from "./components/medlemmer/epha";
+import Medlemmer from "./components/medlemmer/medlemmer";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <section className="medlemmer">
-          <Epha />
-        </section>
+        {/* <section> */}
+          <Medlemmer />
+        {/* </section> */}
       </main>
         {/* <Footer /> */}
     </>
