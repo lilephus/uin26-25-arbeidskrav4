@@ -30,3 +30,11 @@ section {
   /* margin: 20px;
   border-radius: 8px; */
 }
+
+img {
+  /* width: 100%; */
+  width: 120px;
+  /* height: auto; */
+  height: 120px;
+  border-radius: 50%;
+}

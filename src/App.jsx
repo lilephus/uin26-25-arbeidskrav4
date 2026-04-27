@@ -1,6 +1,6 @@
 import Header from "./components/layout/header";
 // import Footer from "./components/layout/footer";
-import medlemmer from "./components/medlemmer/epha";
+import Epha from "./components/medlemmer/epha";
 
 function App() {
   return (
@@ -8,10 +8,10 @@ function App() {
       <Header />
       <main>
         <section className="medlemmer">
-          <epha />
+          <Epha />
         </section>
       </main>
-      {/* <Footer /> */}
+        {/* <Footer /> */}
     </>
   );
 }
