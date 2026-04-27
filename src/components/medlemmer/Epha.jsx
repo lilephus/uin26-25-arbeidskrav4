@@ -9,8 +9,8 @@ export default function Epha() {
       <h2>Epha</h2>
 
       <p>
-        <a href="mailto:epha@email.com">
-          epha@email.com
+        <a href="mailto:hansenbedrift@gmail.com">
+            hansenbedrift@gmail.com
         </a>
       </p>
 
@@ -18,3 +18,8 @@ export default function Epha() {
     </section>
   );
 }
+
+
+{/* <a href="mailto:hansenbedrift@gmail.com?subject=Hei">
+        hansenbedrift@gmail.com
+        </a> */}
