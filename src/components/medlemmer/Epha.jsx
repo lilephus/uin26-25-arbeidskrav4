@@ -2,11 +2,17 @@ import profileImg from "../../assets/epha_p_bilde.png";
 
 export default function Epha() {
   return (
-    <section>
+    <section id="medlemm-card">
+        {/* <article> */}
         {/* <img src="src/assets/epha_p_bilde.png" /> */}
+              {/* <img src="/src/assets/epha_p_bilde.png" alt="Epha" /> */}
+              {/* <img src={ephaImg} alt="Epha" /> */}
       <img src={profileImg} alt="Epha profilbilde" />
 
-      <h2>Epha</h2>
+ <article id="medlemm-info">
+      {/* <h2>Ephantus Hansen</h2> */}
+        <h2 id="epha-name">Ephantus Hansen</h2>
+
 
       <p>
         <a href="mailto:hansenbedrift@gmail.com">
@@ -14,7 +20,8 @@ export default function Epha() {
         </a>
       </p>
 
-      <p>Digital mediedesign</p>
+      <p>Digital medie & design</p>
+      </article>
     </section>
   );
 }
