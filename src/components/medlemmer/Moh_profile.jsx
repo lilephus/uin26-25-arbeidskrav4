@@ -3,10 +3,7 @@ import profileImg from "../../assets/Moh_profilbilde.jpg"
 export default function Moh() {
   return (
     <section id="medlemm-card">
-        {/* <article> */}
-        {/* <img src="src/assets/Moh_profilbilde.jpg" /> */}
-              {/* <img src="/src/assets/Moh_profilbilde.png" alt="Moh" /> */}
-              {/* <img src={ephaImg} alt="Moh" /> */}
+        
       <img src={profileImg} alt="Moh profilbilde" />
 
  <article id="medlemm-info">
