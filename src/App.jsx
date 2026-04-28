@@ -19,3 +19,8 @@ function App() {
 }
 
 export default App;
+
+
+// Importerer Header, medlemmer hvor alle profil jsx skal/ligger, 
+// importerer ArbeidskravListe med sanity data, function app som 
+// returnerer header og main hvor main inneholder medlemmer og arbeidskravliste. Eksporterer app som default.
