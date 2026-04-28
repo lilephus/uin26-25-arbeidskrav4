@@ -1,15 +1,21 @@
-import profile from "./Components/profile";
+import Header from "./components/layout/header";
+// import Footer from "./components/layout/footer";
+import Medlemmer from "./components/medlemmer/medlemmer";
+import ArbeidskravListe from "./components/arbeidskrav/ArbeidskravListe";
+
 
 function App() {
   return (
     <>
-    <header/>
+      <Header />
 
-    <main>
-      <profile/>
-    </main>
+      <main>
+        <Medlemmer />
+        <ArbeidskravListe />
+      </main>
+      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
 export default App;
