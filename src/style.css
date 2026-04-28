@@ -1,3 +1,9 @@
+:root{
+  --black:#111;
+  --white:#fff;
+  --gray:#ddd;
+}
+
 body {
   margin: 0;
   /* padding: 0;
@@ -5,10 +11,10 @@ body {
 }
 header {
   /* background-color: #333; */
-  color: #fff;
+  color: var(--white);
   /* padding: 20px; */
   padding: 1rem;
-  background: #111;
+  background: var(--black);
   text-align: center;
 }
 
@@ -24,8 +30,8 @@ header {
 
 medlemm-card {
   /* background-color: #f4f4f4; */
-  border: 1px solid #ddd;
-  background: #f9f9f9;
+  border: 1px solid var(--gray);
+  background: var(--white);
   padding: 1rem;
   text-align: center;
   border-radius: 10px;
@@ -40,15 +46,15 @@ medlemm-card {
 #medlemm-info{
   margin: 1rem 0;
   padding: 1rem;
-  background: white;
+  background: var(--white);
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--white);
   text-align: center;
 }
 section {
   /* background-color: #f4f4f4; */
-  border: 1px solid #ddd;
-  background: #f9f9f9;
+  border: 1px solid var(--gray);
+  background: var(--white);
   padding: 1rem;
   text-align: center;
   border-radius: 10px;
@@ -61,8 +67,8 @@ section {
 
 .section h2 {
   /* background-color: #f4f4f4; */
-  border: 1px solid #ddd;
-  background: #f9f9f9;
+  border: 1px solid var(--gray);
+  background: var(--white);
   padding: 1rem;
   /* text-align: left; */
   /* float: left; */
@@ -80,9 +86,9 @@ article {
   margin: 1rem 0;
   padding: 1rem;
   /* background-color: #fff; */
-  background: white;
+  background: var(--white);
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--gray);
   text-align: left;
 }
 
