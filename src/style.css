@@ -29,7 +29,7 @@ header {
 }
 
 medlemm-card {
-  /* background-color:*/
+  /* background-color: (--var)*/
   border: 1px solid var(--gray);
   background: var(--white);
   padding: 1rem;
