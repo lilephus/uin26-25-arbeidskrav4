@@ -1,5 +1,15 @@
+import profile from "./Components/profile";
+
 function App() {
-  return <h1>Gruppe UIN26_25</h1>;
+  return (
+    <>
+    <header/>
+
+    <main>
+      <profile/>
+    </main>
+    </>
+  )
 }
 
 export default App;
