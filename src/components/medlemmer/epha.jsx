@@ -27,6 +27,3 @@ export default function Epha() {
 }
 
 
-{/* <a href="mailto:hansenbedrift@gmail.com?subject=Hei">
-        hansenbedrift@gmail.com
-        </a> */}
